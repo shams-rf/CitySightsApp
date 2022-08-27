@@ -1,5 +1,5 @@
 //
-//  CitySightsAppApp.swift
+//  CitySightsApp.swift
 //  Shared
 //
 //  Created by Shamsuddin Refaei on 27/08/2022.
@@ -8,10 +8,10 @@
 import SwiftUI
 
 @main
-struct CitySightsAppApp: App {
+struct CitySightsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LaunchView()
         }
     }
 }
