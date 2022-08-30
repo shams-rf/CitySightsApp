@@ -13,6 +13,8 @@
 		DB039FF528BA11110099A103 /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB039FE328BA11110099A103 /* LaunchView.swift */; };
 		DB039FF628BA11110099A103 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB039FE428BA11110099A103 /* Assets.xcassets */; };
 		DB039FF728BA11110099A103 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB039FE428BA11110099A103 /* Assets.xcassets */; };
+		DBD1C40028BE3CC400032CBC /* ContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD1C3FF28BE3CC400032CBC /* ContentModel.swift */; };
+		DBD1C40128BE3CC400032CBC /* ContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD1C3FF28BE3CC400032CBC /* ContentModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,7 @@
 		DB039FE928BA11110099A103 /* CitySightsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CitySightsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB039FEF28BA11110099A103 /* CitySightsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CitySightsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB039FF128BA11110099A103 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		DBD1C3FF28BE3CC400032CBC /* ContentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +93,7 @@
 		DB03A00128BA11420099A103 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				DBD1C3FF28BE3CC400032CBC /* ContentModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -202,6 +206,7 @@
 			files = (
 				DB039FF428BA11110099A103 /* LaunchView.swift in Sources */,
 				DB039FF228BA11110099A103 /* CitySightsApp.swift in Sources */,
+				DBD1C40028BE3CC400032CBC /* ContentModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,6 +216,7 @@
 			files = (
 				DB039FF528BA11110099A103 /* LaunchView.swift in Sources */,
 				DB039FF328BA11110099A103 /* CitySightsApp.swift in Sources */,
+				DBD1C40128BE3CC400032CBC /* ContentModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,6 +342,7 @@
 				DEVELOPMENT_TEAM = Y99V3PSNQ8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Grant permission to find restaurants and sights near you.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -366,6 +373,7 @@
 				DEVELOPMENT_TEAM = Y99V3PSNQ8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Grant permission to find restaurants and sights near you.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
