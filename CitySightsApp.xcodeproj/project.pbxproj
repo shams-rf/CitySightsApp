@@ -15,6 +15,12 @@
 		DB039FF728BA11110099A103 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB039FE428BA11110099A103 /* Assets.xcassets */; };
 		DBD1C40028BE3CC400032CBC /* ContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD1C3FF28BE3CC400032CBC /* ContentModel.swift */; };
 		DBD1C40128BE3CC400032CBC /* ContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD1C3FF28BE3CC400032CBC /* ContentModel.swift */; };
+		DBED57B628BF4EB3004C9987 /* Business.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBED57B528BF4EB3004C9987 /* Business.swift */; };
+		DBED57B728BF4EB3004C9987 /* Business.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBED57B528BF4EB3004C9987 /* Business.swift */; };
+		DBED57B928BF5113004C9987 /* BusinessSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBED57B828BF5113004C9987 /* BusinessSearch.swift */; };
+		DBED57BA28BF5113004C9987 /* BusinessSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBED57B828BF5113004C9987 /* BusinessSearch.swift */; };
+		DBED57BD28BF54F3004C9987 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBED57BC28BF54F3004C9987 /* Constants.swift */; };
+		DBED57BE28BF54F3004C9987 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBED57BC28BF54F3004C9987 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +31,9 @@
 		DB039FEF28BA11110099A103 /* CitySightsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CitySightsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB039FF128BA11110099A103 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		DBD1C3FF28BE3CC400032CBC /* ContentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentModel.swift; sourceTree = "<group>"; };
+		DBED57B528BF4EB3004C9987 /* Business.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Business.swift; sourceTree = "<group>"; };
+		DBED57B828BF5113004C9987 /* BusinessSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessSearch.swift; sourceTree = "<group>"; };
+		DBED57BC28BF54F3004C9987 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +70,7 @@
 				DB03A00228BA11480099A103 /* Views */,
 				DB03A00128BA11420099A103 /* ViewModels */,
 				DB03A00028BA113E0099A103 /* Models */,
+				DBED57BB28BF54E5004C9987 /* Helpers */,
 				DB039FE428BA11110099A103 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -86,6 +96,8 @@
 		DB03A00028BA113E0099A103 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				DBED57B528BF4EB3004C9987 /* Business.swift */,
+				DBED57B828BF5113004C9987 /* BusinessSearch.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -104,6 +116,14 @@
 				DB039FE328BA11110099A103 /* LaunchView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		DBED57BB28BF54E5004C9987 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				DBED57BC28BF54F3004C9987 /* Constants.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,8 +225,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB039FF428BA11110099A103 /* LaunchView.swift in Sources */,
+				DBED57B628BF4EB3004C9987 /* Business.swift in Sources */,
 				DB039FF228BA11110099A103 /* CitySightsApp.swift in Sources */,
+				DBED57B928BF5113004C9987 /* BusinessSearch.swift in Sources */,
 				DBD1C40028BE3CC400032CBC /* ContentModel.swift in Sources */,
+				DBED57BD28BF54F3004C9987 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,8 +238,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB039FF528BA11110099A103 /* LaunchView.swift in Sources */,
+				DBED57B728BF4EB3004C9987 /* Business.swift in Sources */,
 				DB039FF328BA11110099A103 /* CitySightsApp.swift in Sources */,
+				DBED57BA28BF5113004C9987 /* BusinessSearch.swift in Sources */,
 				DBD1C40128BE3CC400032CBC /* ContentModel.swift in Sources */,
+				DBED57BE28BF54F3004C9987 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
