@@ -65,7 +65,6 @@ class ContentModel: NSObject, CLLocationManagerDelegate, ObservableObject {
     }
     
     // MARK: - Yelp API methods
-    
     func getBusinesses(category:String, location:CLLocation) {
         
         // Create URL
@@ -117,7 +116,6 @@ class ContentModel: NSObject, CLLocationManagerDelegate, ObservableObject {
                         DispatchQueue.main.async {
                             
                             // Assign results to the appropriate property
-                            
                             switch category {
                             case Constants.sightsKey:
                                 self.sights = businesses
@@ -127,19 +125,14 @@ class ContentModel: NSObject, CLLocationManagerDelegate, ObservableObject {
                                 break
                             }
                         }
-                        
                     }
                     catch {
                         print(error)
                     }
                 }
             }
-            
             // Start the Data Task
             dataTask.resume()
         }
-        
     }
-    
-    
 }
