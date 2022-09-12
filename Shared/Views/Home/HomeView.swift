@@ -48,13 +48,42 @@ struct HomeView: View {
                 }
                 else {
                     
-                    // Show map
-                    BusinessMap(selectedBusiness: $selectedBusiness)
-                        .ignoresSafeArea()
-                        .sheet(item: $selectedBusiness) { business in
+                    ZStack (alignment: .top) {
+                        
+                        // Show map
+                        BusinessMap(selectedBusiness: $selectedBusiness)
+                            .ignoresSafeArea()
+                            .sheet(item: $selectedBusiness) { business in
+                                
+                                BusinessDetail(business: business)
+                            }
+                        
+                        // Rectangle overlay
+                        ZStack {
                             
-                            BusinessDetail(business: business)
+                            Rectangle()
+                                .foregroundColor(.white)
+                                .cornerRadius(5)
+                                .frame(height: 48)
+                            
+                            HStack {
+                                
+                                Image(systemName: "mappin")
+                                
+                                Text("San Francisco")
+                                
+                                Spacer()
+                                
+                                Button("Switch to list view") {
+                                    
+                                    self.isMapShowing = false
+                                }
+                            }
+                            .padding()
                         }
+                        .padding()
+                    }
+                    .navigationBarHidden(true)
                 }
             }
         }
