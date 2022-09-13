@@ -13,6 +13,10 @@
 		DB039FF528BA11110099A103 /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB039FE328BA11110099A103 /* LaunchView.swift */; };
 		DB039FF628BA11110099A103 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB039FE428BA11110099A103 /* Assets.xcassets */; };
 		DB039FF728BA11110099A103 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB039FE428BA11110099A103 /* Assets.xcassets */; };
+		DB1D7F4F28D08BEE004110B1 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1D7F4E28D08BEE004110B1 /* OnboardingView.swift */; };
+		DB1D7F5028D08BEE004110B1 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1D7F4E28D08BEE004110B1 /* OnboardingView.swift */; };
+		DB1D7F5228D0942D004110B1 /* LocationDeniedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1D7F5128D0942D004110B1 /* LocationDeniedView.swift */; };
+		DB1D7F5328D0942D004110B1 /* LocationDeniedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1D7F5128D0942D004110B1 /* LocationDeniedView.swift */; };
 		DB7A5DE028C35F4F00C3D7D5 /* BusinessRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7A5DDF28C35F4F00C3D7D5 /* BusinessRow.swift */; };
 		DB7A5DE128C35F4F00C3D7D5 /* BusinessRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7A5DDF28C35F4F00C3D7D5 /* BusinessRow.swift */; };
 		DB8FCF8328CC904000E5458F /* BusinessMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8FCF8228CC904000E5458F /* BusinessMap.swift */; };
@@ -25,6 +29,12 @@
 		DB9846EC28C0AC5800A9B2BD /* BusinessSectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9846EA28C0AC5800A9B2BD /* BusinessSectionHeader.swift */; };
 		DB9846EE28C0AD3700A9B2BD /* BusinessSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9846ED28C0AD3700A9B2BD /* BusinessSection.swift */; };
 		DB9846EF28C0AD3700A9B2BD /* BusinessSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9846ED28C0AD3700A9B2BD /* BusinessSection.swift */; };
+		DBC50A7C28CF931400F8D867 /* DirectionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC50A7B28CF931400F8D867 /* DirectionsView.swift */; };
+		DBC50A7D28CF931400F8D867 /* DirectionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC50A7B28CF931400F8D867 /* DirectionsView.swift */; };
+		DBC50A7F28CF938F00F8D867 /* BusinessTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC50A7E28CF938F00F8D867 /* BusinessTitle.swift */; };
+		DBC50A8028CF938F00F8D867 /* BusinessTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC50A7E28CF938F00F8D867 /* BusinessTitle.swift */; };
+		DBC50A8228CF98D800F8D867 /* DirectionsMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC50A8128CF98D800F8D867 /* DirectionsMap.swift */; };
+		DBC50A8328CF98D800F8D867 /* DirectionsMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC50A8128CF98D800F8D867 /* DirectionsMap.swift */; };
 		DBD1C40028BE3CC400032CBC /* ContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD1C3FF28BE3CC400032CBC /* ContentModel.swift */; };
 		DBD1C40128BE3CC400032CBC /* ContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD1C3FF28BE3CC400032CBC /* ContentModel.swift */; };
 		DBE0D74628C9EC2100A92149 /* BusinessDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE0D74528C9EC2100A92149 /* BusinessDetail.swift */; };
@@ -44,12 +54,17 @@
 		DB039FE928BA11110099A103 /* CitySightsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CitySightsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB039FEF28BA11110099A103 /* CitySightsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CitySightsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB039FF128BA11110099A103 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		DB1D7F4E28D08BEE004110B1 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		DB1D7F5128D0942D004110B1 /* LocationDeniedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDeniedView.swift; sourceTree = "<group>"; };
 		DB7A5DDF28C35F4F00C3D7D5 /* BusinessRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessRow.swift; sourceTree = "<group>"; };
 		DB8FCF8228CC904000E5458F /* BusinessMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessMap.swift; sourceTree = "<group>"; };
 		DB9846E328C0A35E00A9B2BD /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		DB9846E728C0A8AA00A9B2BD /* BusinessList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessList.swift; sourceTree = "<group>"; };
 		DB9846EA28C0AC5800A9B2BD /* BusinessSectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessSectionHeader.swift; sourceTree = "<group>"; };
 		DB9846ED28C0AD3700A9B2BD /* BusinessSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessSection.swift; sourceTree = "<group>"; };
+		DBC50A7B28CF931400F8D867 /* DirectionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionsView.swift; sourceTree = "<group>"; };
+		DBC50A7E28CF938F00F8D867 /* BusinessTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessTitle.swift; sourceTree = "<group>"; };
+		DBC50A8128CF98D800F8D867 /* DirectionsMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionsMap.swift; sourceTree = "<group>"; };
 		DBD1C3FF28BE3CC400032CBC /* ContentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentModel.swift; sourceTree = "<group>"; };
 		DBE0D74528C9EC2100A92149 /* BusinessDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessDetail.swift; sourceTree = "<group>"; };
 		DBED57B528BF4EB3004C9987 /* Business.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Business.swift; sourceTree = "<group>"; };
@@ -146,6 +161,7 @@
 			isa = PBXGroup;
 			children = (
 				DB8FCF8228CC904000E5458F /* BusinessMap.swift */,
+				DBC50A8128CF98D800F8D867 /* DirectionsMap.swift */,
 			);
 			path = Map;
 			sourceTree = "<group>";
@@ -153,6 +169,7 @@
 		DB9846E028C0A33A00A9B2BD /* Onboarding */ = {
 			isa = PBXGroup;
 			children = (
+				DB1D7F4E28D08BEE004110B1 /* OnboardingView.swift */,
 			);
 			path = Onboarding;
 			sourceTree = "<group>";
@@ -160,6 +177,7 @@
 		DB9846E128C0A34400A9B2BD /* Denied */ = {
 			isa = PBXGroup;
 			children = (
+				DB1D7F5128D0942D004110B1 /* LocationDeniedView.swift */,
 			);
 			path = Denied;
 			sourceTree = "<group>";
@@ -168,7 +186,7 @@
 			isa = PBXGroup;
 			children = (
 				DB9846E328C0A35E00A9B2BD /* HomeView.swift */,
-				DBE0D74528C9EC2100A92149 /* BusinessDetail.swift */,
+				DBC50A7A28CF930000F8D867 /* Detail */,
 				DB8FCF8128CC902B00E5458F /* Map */,
 				DB9846E628C0A89000A9B2BD /* List */,
 			);
@@ -184,6 +202,16 @@
 				DB7A5DDF28C35F4F00C3D7D5 /* BusinessRow.swift */,
 			);
 			path = List;
+			sourceTree = "<group>";
+		};
+		DBC50A7A28CF930000F8D867 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				DBE0D74528C9EC2100A92149 /* BusinessDetail.swift */,
+				DBC50A7B28CF931400F8D867 /* DirectionsView.swift */,
+				DBC50A7E28CF938F00F8D867 /* BusinessTitle.swift */,
+			);
+			path = Detail;
 			sourceTree = "<group>";
 		};
 		DBED57BB28BF54E5004C9987 /* Helpers */ = {
@@ -292,18 +320,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBC50A8228CF98D800F8D867 /* DirectionsMap.swift in Sources */,
 				DB039FF428BA11110099A103 /* LaunchView.swift in Sources */,
 				DB7A5DE028C35F4F00C3D7D5 /* BusinessRow.swift in Sources */,
+				DBC50A7C28CF931400F8D867 /* DirectionsView.swift in Sources */,
 				DB9846E428C0A35E00A9B2BD /* HomeView.swift in Sources */,
 				DBED57B628BF4EB3004C9987 /* Business.swift in Sources */,
+				DB1D7F5228D0942D004110B1 /* LocationDeniedView.swift in Sources */,
 				DB9846EB28C0AC5800A9B2BD /* BusinessSectionHeader.swift in Sources */,
 				DB039FF228BA11110099A103 /* CitySightsApp.swift in Sources */,
 				DBE0D74628C9EC2100A92149 /* BusinessDetail.swift in Sources */,
 				DBED57B928BF5113004C9987 /* BusinessSearch.swift in Sources */,
+				DBC50A7F28CF938F00F8D867 /* BusinessTitle.swift in Sources */,
 				DB9846E828C0A8AA00A9B2BD /* BusinessList.swift in Sources */,
 				DB8FCF8328CC904000E5458F /* BusinessMap.swift in Sources */,
 				DB9846EE28C0AD3700A9B2BD /* BusinessSection.swift in Sources */,
 				DBD1C40028BE3CC400032CBC /* ContentModel.swift in Sources */,
+				DB1D7F4F28D08BEE004110B1 /* OnboardingView.swift in Sources */,
 				DBED57BD28BF54F3004C9987 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -312,18 +345,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBC50A8328CF98D800F8D867 /* DirectionsMap.swift in Sources */,
 				DB039FF528BA11110099A103 /* LaunchView.swift in Sources */,
 				DB7A5DE128C35F4F00C3D7D5 /* BusinessRow.swift in Sources */,
+				DBC50A7D28CF931400F8D867 /* DirectionsView.swift in Sources */,
 				DB9846E528C0A35E00A9B2BD /* HomeView.swift in Sources */,
 				DBED57B728BF4EB3004C9987 /* Business.swift in Sources */,
+				DB1D7F5328D0942D004110B1 /* LocationDeniedView.swift in Sources */,
 				DB9846EC28C0AC5800A9B2BD /* BusinessSectionHeader.swift in Sources */,
 				DB039FF328BA11110099A103 /* CitySightsApp.swift in Sources */,
 				DBE0D74728C9EC2100A92149 /* BusinessDetail.swift in Sources */,
 				DBED57BA28BF5113004C9987 /* BusinessSearch.swift in Sources */,
+				DBC50A8028CF938F00F8D867 /* BusinessTitle.swift in Sources */,
 				DB9846E928C0A8AA00A9B2BD /* BusinessList.swift in Sources */,
 				DB8FCF8428CC904000E5458F /* BusinessMap.swift in Sources */,
 				DB9846EF28C0AD3700A9B2BD /* BusinessSection.swift in Sources */,
 				DBD1C40128BE3CC400032CBC /* ContentModel.swift in Sources */,
+				DB1D7F5028D08BEE004110B1 /* OnboardingView.swift in Sources */,
 				DBED57BE28BF54F3004C9987 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
